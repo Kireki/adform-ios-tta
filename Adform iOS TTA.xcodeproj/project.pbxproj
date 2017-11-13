@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3D6DF8C862266DBF0D28A8 /* Pods_Adform_iOS_TTATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA35A2CD535B7C4A1005B221 /* Pods_Adform_iOS_TTATests.framework */; };
+		7A03F4F61FB23973002BFB12 /* CustomTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03F4F51FB23973002BFB12 /* CustomTrackingViewController.swift */; };
+		7A08FF4B1FA11A9200EAB49D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08FF4A1FA11A9200EAB49D /* AppDelegate.swift */; };
+		7A08FF4D1FA11A9200EAB49D /* StartTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08FF4C1FA11A9200EAB49D /* StartTrackingViewController.swift */; };
+		7A08FF501FA11A9200EAB49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A08FF4E1FA11A9200EAB49D /* Main.storyboard */; };
+		7A08FF521FA11A9200EAB49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A08FF511FA11A9200EAB49D /* Assets.xcassets */; };
+		7A08FF551FA11A9200EAB49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A08FF531FA11A9200EAB49D /* LaunchScreen.storyboard */; };
+		7A08FF601FA11A9200EAB49D /* Adform_iOS_TTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08FF5F1FA11A9200EAB49D /* Adform_iOS_TTATests.swift */; };
+		7A2397291FB24EBD00EBCEFD /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2397281FB24EBD00EBCEFD /* CustomButton.swift */; };
+		7A23972B1FB264C000EBCEFD /* VarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A23972A1FB264C000EBCEFD /* VarControl.swift */; };
+		7A59401F1FB3E5D100166DDE /* ProductControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59401E1FB3E5D100166DDE /* ProductControl.swift */; };
+		7AFE913A1FB5CFAF0040384C /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE91391FB5CFAF0040384C /* OptionsViewController.swift */; };
+		93355A04D8965163873925B5 /* Pods_Adform_iOS_TTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F0B9FF4FA90F4632B332C7 /* Pods_Adform_iOS_TTA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A08FF5C1FA11A9200EAB49D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A08FF3F1FA11A9200EAB49D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A08FF461FA11A9200EAB49D;
+			remoteInfo = "Adform iOS TTA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78317F762B3BE3716F5879CE /* Pods-Adform iOS TTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adform iOS TTA.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adform iOS TTA/Pods-Adform iOS TTA.release.xcconfig"; sourceTree = "<group>"; };
+		7A03F4F51FB23973002BFB12 /* CustomTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTrackingViewController.swift; sourceTree = "<group>"; };
+		7A08FF471FA11A9200EAB49D /* Adform iOS TTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adform iOS TTA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A08FF4A1FA11A9200EAB49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A08FF4C1FA11A9200EAB49D /* StartTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTrackingViewController.swift; sourceTree = "<group>"; };
+		7A08FF4F1FA11A9200EAB49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A08FF511FA11A9200EAB49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A08FF541FA11A9200EAB49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A08FF561FA11A9200EAB49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A08FF5B1FA11A9200EAB49D /* Adform iOS TTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adform iOS TTATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A08FF5F1FA11A9200EAB49D /* Adform_iOS_TTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adform_iOS_TTATests.swift; sourceTree = "<group>"; };
+		7A08FF611FA11A9200EAB49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2397281FB24EBD00EBCEFD /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = "Custom controls/CustomButton.swift"; sourceTree = "<group>"; };
+		7A23972A1FB264C000EBCEFD /* VarControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VarControl.swift; path = "Custom controls/VarControl.swift"; sourceTree = "<group>"; };
+		7A59401E1FB3E5D100166DDE /* ProductControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductControl.swift; path = "Custom controls/ProductControl.swift"; sourceTree = "<group>"; };
+		7AA4A0D91FA11FED005AD924 /* bridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridgingHeader.h; sourceTree = "<group>"; };
+		7AFE91391FB5CFAF0040384C /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		86F0B9FF4FA90F4632B332C7 /* Pods_Adform_iOS_TTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adform_iOS_TTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA75576ABA36CDA34C9E6234 /* Pods-Adform iOS TTATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adform iOS TTATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adform iOS TTATests/Pods-Adform iOS TTATests.release.xcconfig"; sourceTree = "<group>"; };
+		C1536ECCF599A575E0AAF68A /* Pods-Adform iOS TTATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adform iOS TTATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adform iOS TTATests/Pods-Adform iOS TTATests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD7D41FD6E23D7AE10CFA971 /* Pods-Adform iOS TTA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adform iOS TTA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adform iOS TTA/Pods-Adform iOS TTA.debug.xcconfig"; sourceTree = "<group>"; };
+		DA35A2CD535B7C4A1005B221 /* Pods_Adform_iOS_TTATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adform_iOS_TTATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A08FF441FA11A9200EAB49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93355A04D8965163873925B5 /* Pods_Adform_iOS_TTA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A08FF581FA11A9200EAB49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3D6DF8C862266DBF0D28A8 /* Pods_Adform_iOS_TTATests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		458BDC14BF4B740076F04B9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D41FD6E23D7AE10CFA971 /* Pods-Adform iOS TTA.debug.xcconfig */,
+				78317F762B3BE3716F5879CE /* Pods-Adform iOS TTA.release.xcconfig */,
+				C1536ECCF599A575E0AAF68A /* Pods-Adform iOS TTATests.debug.xcconfig */,
+				BA75576ABA36CDA34C9E6234 /* Pods-Adform iOS TTATests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58AE3D426FD6117DE806F7A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86F0B9FF4FA90F4632B332C7 /* Pods_Adform_iOS_TTA.framework */,
+				DA35A2CD535B7C4A1005B221 /* Pods_Adform_iOS_TTATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A08FF3E1FA11A9200EAB49D = {
+			isa = PBXGroup;
+			children = (
+				7A08FF491FA11A9200EAB49D /* Adform iOS TTA */,
+				7A08FF5E1FA11A9200EAB49D /* Adform iOS TTATests */,
+				7A08FF481FA11A9200EAB49D /* Products */,
+				458BDC14BF4B740076F04B9D /* Pods */,
+				58AE3D426FD6117DE806F7A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A08FF481FA11A9200EAB49D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A08FF471FA11A9200EAB49D /* Adform iOS TTA.app */,
+				7A08FF5B1FA11A9200EAB49D /* Adform iOS TTATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A08FF491FA11A9200EAB49D /* Adform iOS TTA */ = {
+			isa = PBXGroup;
+			children = (
+				7A08FF4A1FA11A9200EAB49D /* AppDelegate.swift */,
+				7A08FF4C1FA11A9200EAB49D /* StartTrackingViewController.swift */,
+				7A03F4F51FB23973002BFB12 /* CustomTrackingViewController.swift */,
+				7AFE91391FB5CFAF0040384C /* OptionsViewController.swift */,
+				7A2397281FB24EBD00EBCEFD /* CustomButton.swift */,
+				7A23972A1FB264C000EBCEFD /* VarControl.swift */,
+				7A59401E1FB3E5D100166DDE /* ProductControl.swift */,
+				7A08FF4E1FA11A9200EAB49D /* Main.storyboard */,
+				7A08FF511FA11A9200EAB49D /* Assets.xcassets */,
+				7A08FF531FA11A9200EAB49D /* LaunchScreen.storyboard */,
+				7A08FF561FA11A9200EAB49D /* Info.plist */,
+				7AA4A0D91FA11FED005AD924 /* bridgingHeader.h */,
+			);
+			path = "Adform iOS TTA";
+			sourceTree = "<group>";
+		};
+		7A08FF5E1FA11A9200EAB49D /* Adform iOS TTATests */ = {
+			isa = PBXGroup;
+			children = (
+				7A08FF5F1FA11A9200EAB49D /* Adform_iOS_TTATests.swift */,
+				7A08FF611FA11A9200EAB49D /* Info.plist */,
+			);
+			path = "Adform iOS TTATests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A08FF461FA11A9200EAB49D /* Adform iOS TTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A08FF641FA11A9200EAB49D /* Build configuration list for PBXNativeTarget "Adform iOS TTA" */;
+			buildPhases = (
+				3FEF2C6C822B79E2C59B4B2C /* [CP] Check Pods Manifest.lock */,
+				7A08FF431FA11A9200EAB49D /* Sources */,
+				7A08FF441FA11A9200EAB49D /* Frameworks */,
+				7A08FF451FA11A9200EAB49D /* Resources */,
+				AC14F4C095C9A541C487B02A /* [CP] Embed Pods Frameworks */,
+				C4ACF89D76E718A9FE392266 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adform iOS TTA";
+			productName = "Adform iOS TTA";
+			productReference = 7A08FF471FA11A9200EAB49D /* Adform iOS TTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A08FF5A1FA11A9200EAB49D /* Adform iOS TTATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A08FF671FA11A9200EAB49D /* Build configuration list for PBXNativeTarget "Adform iOS TTATests" */;
+			buildPhases = (
+				16EA4277B17F14229340EA57 /* [CP] Check Pods Manifest.lock */,
+				7A08FF571FA11A9200EAB49D /* Sources */,
+				7A08FF581FA11A9200EAB49D /* Frameworks */,
+				7A08FF591FA11A9200EAB49D /* Resources */,
+				83DCAC9338DED974F61D81A7 /* [CP] Embed Pods Frameworks */,
+				066B65C1DF4F769FA43C81D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A08FF5D1FA11A9200EAB49D /* PBXTargetDependency */,
+			);
+			name = "Adform iOS TTATests";
+			productName = "Adform iOS TTATests";
+			productReference = 7A08FF5B1FA11A9200EAB49D /* Adform iOS TTATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A08FF3F1FA11A9200EAB49D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Adform;
+				TargetAttributes = {
+					7A08FF461FA11A9200EAB49D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					7A08FF5A1FA11A9200EAB49D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A08FF461FA11A9200EAB49D;
+					};
+				};
+			};
+			buildConfigurationList = 7A08FF421FA11A9200EAB49D /* Build configuration list for PBXProject "Adform iOS TTA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A08FF3E1FA11A9200EAB49D;
+			productRefGroup = 7A08FF481FA11A9200EAB49D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A08FF461FA11A9200EAB49D /* Adform iOS TTA */,
+				7A08FF5A1FA11A9200EAB49D /* Adform iOS TTATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A08FF451FA11A9200EAB49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A08FF551FA11A9200EAB49D /* LaunchScreen.storyboard in Resources */,
+				7A08FF521FA11A9200EAB49D /* Assets.xcassets in Resources */,
+				7A08FF501FA11A9200EAB49D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A08FF591FA11A9200EAB49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		066B65C1DF4F769FA43C81D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adform iOS TTATests/Pods-Adform iOS TTATests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16EA4277B17F14229340EA57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adform iOS TTATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FEF2C6C822B79E2C59B4B2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adform iOS TTA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83DCAC9338DED974F61D81A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adform iOS TTATests/Pods-Adform iOS TTATests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC14F4C095C9A541C487B02A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Adform iOS TTA/Pods-Adform iOS TTA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adform iOS TTA/Pods-Adform iOS TTA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4ACF89D76E718A9FE392266 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adform iOS TTA/Pods-Adform iOS TTA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A08FF431FA11A9200EAB49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2397291FB24EBD00EBCEFD /* CustomButton.swift in Sources */,
+				7A59401F1FB3E5D100166DDE /* ProductControl.swift in Sources */,
+				7A23972B1FB264C000EBCEFD /* VarControl.swift in Sources */,
+				7AFE913A1FB5CFAF0040384C /* OptionsViewController.swift in Sources */,
+				7A08FF4D1FA11A9200EAB49D /* StartTrackingViewController.swift in Sources */,
+				7A03F4F61FB23973002BFB12 /* CustomTrackingViewController.swift in Sources */,
+				7A08FF4B1FA11A9200EAB49D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A08FF571FA11A9200EAB49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A08FF601FA11A9200EAB49D /* Adform_iOS_TTATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A08FF5D1FA11A9200EAB49D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A08FF461FA11A9200EAB49D /* Adform iOS TTA */;
+			targetProxy = 7A08FF5C1FA11A9200EAB49D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A08FF4E1FA11A9200EAB49D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A08FF4F1FA11A9200EAB49D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A08FF531FA11A9200EAB49D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A08FF541FA11A9200EAB49D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A08FF621FA11A9200EAB49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A08FF631FA11A9200EAB49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A08FF651FA11A9200EAB49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7D41FD6E23D7AE10CFA971 /* Pods-Adform iOS TTA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GR8E58BSND;
+				INFOPLIST_FILE = "Adform iOS TTA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adform.Adform-iOS-TTA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "./Adform iOS TTA/bridgingHeader.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A08FF661FA11A9200EAB49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78317F762B3BE3716F5879CE /* Pods-Adform iOS TTA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GR8E58BSND;
+				INFOPLIST_FILE = "Adform iOS TTA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adform.Adform-iOS-TTA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Adform iOS TTA/bridgingHeader.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A08FF681FA11A9200EAB49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1536ECCF599A575E0AAF68A /* Pods-Adform iOS TTATests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Adform iOS TTATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adform.Adform-iOS-TTATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adform iOS TTA.app/Adform iOS TTA";
+			};
+			name = Debug;
+		};
+		7A08FF691FA11A9200EAB49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA75576ABA36CDA34C9E6234 /* Pods-Adform iOS TTATests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Adform iOS TTATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adform.Adform-iOS-TTATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adform iOS TTA.app/Adform iOS TTA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A08FF421FA11A9200EAB49D /* Build configuration list for PBXProject "Adform iOS TTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A08FF621FA11A9200EAB49D /* Debug */,
+				7A08FF631FA11A9200EAB49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A08FF641FA11A9200EAB49D /* Build configuration list for PBXNativeTarget "Adform iOS TTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A08FF651FA11A9200EAB49D /* Debug */,
+				7A08FF661FA11A9200EAB49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A08FF671FA11A9200EAB49D /* Build configuration list for PBXNativeTarget "Adform iOS TTATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A08FF681FA11A9200EAB49D /* Debug */,
+				7A08FF691FA11A9200EAB49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A08FF3F1FA11A9200EAB49D /* Project object */;
+}

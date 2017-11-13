@@ -1,0 +1,6 @@
+framework module Pods_Adform_iOS_TTATests {
+  umbrella header "Pods-Adform iOS TTATests-umbrella.h"
+
+  export *
+  module * { export * }
+}

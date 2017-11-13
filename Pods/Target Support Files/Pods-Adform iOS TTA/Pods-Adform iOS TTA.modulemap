@@ -1,0 +1,6 @@
+framework module Pods_Adform_iOS_TTA {
+  umbrella header "Pods-Adform iOS TTA-umbrella.h"
+
+  export *
+  module * { export * }
+}
